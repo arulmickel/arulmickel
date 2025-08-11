@@ -10,7 +10,7 @@
 ---
 
 ## 🔗 Quick Links
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/arulmichael)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://linkedin.com/in/arulmichael](https://www.linkedin.com/in/arul-michael-antony-f-661260187/))
 [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:arulmichaelantonyf@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/arulmichaelantony)
 
