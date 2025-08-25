@@ -3,8 +3,8 @@
 
 # 👋 Hi, I'm Arul Michael Antony (Arul Michael)
 
-🎓 **MS CS (AI Specialization)** @ DePaul University, Chicago  
-🤖 **AI/ML Engineer** | 🌐 **Full-Stack Developer** | 📱 **Android Developer**  
+🎓 **MS CS** @ DePaul University, Chicago  
+📱 **Android Developer**  |  🤖 **AI/ML Engineer** | 🌐 **Full-Stack Developer** 
 💡 T-shaped technologist: deep expertise in **AI/ML**, broad skills across **full-stack** development.
 
 ---
