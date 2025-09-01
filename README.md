@@ -4,8 +4,8 @@
 # 👋 Hi, I'm Arul Michael Antony (Arul Michael)
 
 🎓 **MS CS** @ DePaul University, Chicago  
-📱 **Android Developer**  |  🤖 **AI/ML Engineer** | 🌐 **Full-Stack Developer** 
-💡 T-shaped technologist: deep expertise in **AI/ML**, broad skills across **full-stack** development.
+📱 **Android Developer**  | 🌐 **Full-Stack Developer** |  🤖 **AI/ML Engineer** 
+💡 T-shaped technologist: deep expertise in **Android-developer** **AI/ML**, broad skills across **full-stack** development.
 
 ---
 
@@ -20,13 +20,26 @@
 
 | **Area**          | **Tech / Tools** |
 |-------------------|------------------|
-| **AI / ML (Deep)** | Python, PyTorch, TensorFlow, Vision Transformers (ViT), Transformers (Mistral-7B, GPT), CV, NLP, Deepfake Detection, Generative AI |
-| **Full-Stack**     | Kotlin (Android – Jetpack Compose, Firebase), HTML, CSS, JavaScript, TypeScript, REST APIs, Node.js, Express.js, MySQL, MongoDB |
-| **DevOps / Tools** | Git, Docker, GitHub Actions, AWS (Basics), Figma, Postman |
+| **Android-Developer** | Kotlin, Android SDK, Jetpack (Compose, ViewModel, Navigation, WorkManager, DataStore), Coroutines/Flow, Retrofit/OkHttp, Room, Material, ViewBinding |
+| **Ecosystem**         | Firebase (Auth/Firestore/Storage/FCM), Google Maps/Location (+basic geofencing), CI/CD (Gradle, GitHub Actions), Testing (JUnit, Espresso), Git, Docker; Meta Android Developer certified |
+| **Full-Stack**        | Kotlin (Android – Jetpack Compose, Firebase), HTML, CSS, JavaScript, TypeScript, REST APIs, Node.js, Express.js, MySQL, MongoDB |
+| **AI / ML (Deep)**    | Python, PyTorch, TensorFlow, Vision Transformers (ViT), Transformers (Mistral-7B, GPT), CV, NLP, Deepfake Detection, Generative AI |
+| **DevOps / Tools**    | Git, Docker, GitHub Actions, AWS (Basics), Figma, Postman |
 
 ---
 
 ## 🚀 Featured Projects
+
+### 🧮 DFCalculator — Android Calculator  
+*Kotlin | Android SDK | ViewModel | Material | ViewBinding | Library Module | JUnit*  
+Two-module calculator with trig (sin/cos/tan), DEG/RAD toggle, Dark/Light theme, and state that survives rotation & process death.  
+🔗 [View Repository](https://github.com/arulmickel/Calculator)
+
+### 🅿️ Parking Finder — Android Location App  
+*Kotlin | Google Maps/Location | MVVM | Retrofit | Room | Firebase (Auth/FCM) | Offline Caching*  
+Find nearby parking, view details, get directions, receive availability alerts; optimized for spotty networks with offline caching.  
+🔗 [View Repository](https://github.com/arulmickel/ParkingFinder)
+
 
 ### 📱 BorBuddy – Android Social Media App  
 *Kotlin | Firebase | Jetpack Compose | AI Recommendations*  
