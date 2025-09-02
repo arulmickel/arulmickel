@@ -38,7 +38,7 @@ Two-module calculator with trig (sin/cos/tan), DEG/RAD toggle, Dark/Light theme,
 ### 🅿️ Parking Finder — Android Location App  
 *Kotlin | Google Maps/Location | MVVM | Retrofit | Room | Firebase (Auth/FCM) | Offline Caching*  
 Find nearby parking, view details, get directions, receive availability alerts; optimized for spotty networks with offline caching.  
-🔗 [View Repository](https://github.com/arulmickel/ParkingFinder)
+🔗 [View Repository](https://github.com/arulmickel/Parking-Finder-app.git)
 
 
 ### 📱 BorBuddy – Android Social Media App  
