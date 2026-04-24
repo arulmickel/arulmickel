@@ -4,8 +4,8 @@
 # 👋 Hi, I'm Arul Michael Antony Felix Raja
 
 🎓 **M.S. Computer Science (AI Concentration)** @ DePaul University, Chicago  
-📱 **Android Software Developer** | 🤖 **AI-Assisted Development** | 🛡️ **Meta Android Certified**  
-💡 3+ years of hands-on experience designing, developing, and maintaining high-quality native Android applications in **Kotlin** and **Java**, with expertise in **AI-assisted development workflows**.
+📱 **Android Developer** | 🧪 **Test Automation & SDET** | 🤖 **AI-Assisted Development** | 🛡️ **Meta Android Certified**  
+💡 3+ years of hands-on experience building native Android applications in **Kotlin** and **Java**, with deep focus on **test automation frameworks, Espresso & Compose UI testing, and CI/CD reliability** — plus **AI-assisted development workflows**.
 
 🌐 **Portfolio:** [arulmickel.github.io/portfolio-](https://arulmickel.github.io/portfolio-/)
 
@@ -23,13 +23,14 @@
 
 | **Area** | **Tech / Tools** |
 |---|---|
+| **Test Automation & SDET** | Espresso, Compose UI Test, JUnit 4, MockK, Truth, Turbine, Hilt test rules (`@UninstallModules` + `@BindValue`), MockWebServer, kotlinx-coroutines-test, Room in-memory DBs, Page Object Model, test data builders, flake reduction, animations-disabled test runs |
 | **Android Development** | Kotlin, Java, Android SDK, Jetpack Compose, XML Layouts, MVVM, MVC, Clean Architecture, ViewModel, LiveData, Coroutines, Flow, Room, WorkManager, Retrofit, OkHttp, Material Design, Google Play Store Publishing |
 | **AI-Assisted Development** | Windsurf AI, AI-powered Code Generation & Refactoring, AI Code Review & Validation, Prompt Engineering for Code Quality |
 | **Firebase & Services** | Firebase Auth, Firestore, FCM, Crashlytics, Google Play Services (Maps/Location), Google Play Console |
-| **Testing & Debugging** | JUnit, Espresso, Android Profiler, LeakCanary, Logcat, Crashlytics, UI Testing, Unit Testing |
+| **Debugging & Profiling** | Android Profiler, LeakCanary, Logcat, Crashlytics, ANR analysis, memory leak triage |
 | **Backend & APIs** | RESTful APIs (JSON), Spring Boot, Flask, MongoDB, AWS (EC2, S3, Lambda, DynamoDB, CloudWatch), Secure Data Storage |
-| **DevOps & Tools** | Git, GitHub Actions, Jenkins, Docker, Postman, Linux, Bash, CI/CD Pipelines |
-| **Methodologies** | Agile/Scrum, Code Reviews, Secure Coding Practices, Mobile Application Security |
+| **DevOps & CI/CD** | Git, GitHub Actions, Jenkins, Docker, Postman, Linux, Bash, CI/CD Pipelines, Selenium Grid |
+| **Methodologies** | Agile/Scrum, Code Reviews, Secure Coding Practices, Mobile Application Security, TDD |
 | **Languages** | Kotlin, Java, Python, SQL, JavaScript, C++ |
 
 ---
@@ -42,11 +43,11 @@
 - Led **Jetpack Compose migration** from legacy XML, reducing network-related crashes by **15%**
 - Managed **Google Play Store** end-to-end publishing, crash monitoring via Crashlytics
 - Revamped **AWS SNS-to-FCM** notification pipeline, increasing user opt-in rates by **20%**
-- Established **CI/CD pipelines** with GitHub Actions, JUnit, and lint automation
+- Established **CI/CD pipelines** with GitHub Actions, JUnit, Espresso, and lint automation — gated merges on green test runs to reduce regressions
 
 ### ⚙️ Software Engineer — Tata Consultancy Services (India) `May 2022 – Jul 2023`
+- Designed and maintained **Selenium automation suites** with Jenkins CI, cutting QA regression cycles by **40%** through reusable Page Object architecture and stable selectors
 - Optimized **Java/Spring Boot REST APIs**, improving response times by **25%**
-- Built **Selenium automation suites** with Jenkins CI, cutting QA regression cycles by **40%**
 - Implemented **AWS CloudWatch** alerting for proactive monitoring
 
 ### 📲 Junior Android Developer — HumCen (India) `Jan 2021 – Dec 2021`
@@ -57,6 +58,11 @@
 ---
 
 ## 🚀 Featured Projects
+
+### 🗺️ MapTest Framework — Android Maps SDET Framework
+*Kotlin | Jetpack Compose | Espresso | Compose UI Test | Hilt | Room | Retrofit | MockWebServer | MockK | Page Object Model*  
+Production-style Android Maps app paired with a comprehensive SDET test framework. Demonstrates **Page Object Model** architecture, **Hilt-based test doubles** via `@UninstallModules` + `@BindValue`, **MockWebServer** for deterministic networking, **in-memory Room** for DAO tests, and **DSA in real context** (LRU cache, Trie autocomplete, BFS/Dijkstra route graph, Haversine distance). Launches without API keys via a graceful fallback UI — designed to be runnable on any reviewer's machine.  
+🔗 [View Repository](https://github.com/arulmickel/Map-Test-Framework)
 
 ### 📱 BorBuddy — Social Media App
 *Kotlin | Jetpack Compose | MVVM | Room | WorkManager | Windsurf AI*  
