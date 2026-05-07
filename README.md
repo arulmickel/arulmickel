@@ -17,7 +17,7 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/arul-michael-antony-f-661260187/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:arulmichaelantonyf@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/arulmichaelantony)
-[![Meta-Certificate]([https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle](https://pngimg.com/image/110792))]([https://www.kaggle.com/arulmichaelantony](https://www.credly.com/badges/43d31ac1-b650-462d-a740-7a5b8babca1c/public_url))
+[![Meta-Certificate](https://pngimg.com/image/110792)](https://www.credly.com/badges/43d31ac1-b650-462d-a740-7a5b8babca1c/public_url)
 
 ---
 
