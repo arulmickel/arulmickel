@@ -39,7 +39,7 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 
 ## Experience
 
-### Android Developer - Digital Factory (Chicago, IL) `Sep 2025 - Present`
+### Senior Android Developer - Digital Factory (Chicago, IL) `Sep 2025 - Present`
 - Dependency Injection & Modularization: Refactored feature modules using Hilt and Gradle Kotlin DSL, enabling parallel feature development across teams and reducing incremental build times by ~30%.
 - Reactive State Management: Implemented Unidirectional Data Flow (UDF) with StateFlow and SharedFlow across 12+ Compose screens, eliminating UI race conditions and producing predictable, testable screen states.
 - Performance & Stability Monitoring: Integrated Firebase Crashlytics and Android Vitals dashboards to track ANRs, cold-start, and slow-frame rates; reduced p95 cold-start by 22% via Baseline Profiles and lazy initialization of non-critical components.
