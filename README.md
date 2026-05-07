@@ -9,7 +9,7 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 4 years of hands-on experience building native Android applications in **Kotlin** and **Java**, with deep focus on **test automation frameworks, Espresso & Compose UI testing, and CI/CD reliability** - plus **AI-Integrated development workflows**.
 
 **Portfolio:** [arulmickel.github.io/portfolio-](https://arulmickel.github.io/portfolio-/)
-**Meta-Certificate:** [www.credly.com/badges/](https://www.credly.com/badges/43d31ac1-b650-462d-a740-7a5b8babca1c/public_url)
+**Meta Android Developer Certificate:** [Verify on Credly](https://www.credly.com/badges/43d31ac1-b650-462d-a740-7a5b8babca1c/public_url)
 
 ---
 
