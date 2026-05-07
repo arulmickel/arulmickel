@@ -25,13 +25,13 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 
 | **Area** | **Tech / Tools** |
 |---|---|
-| **Test Automation & SDET** | Espresso, Compose UI Test, JUnit 4, MockK, Truth, Turbine, Hilt test rules (`@UninstallModules` + `@BindValue`), MockWebServer, kotlinx-coroutines-test, Room in-memory DBs, Page Object Model, test data builders, flake reduction, animations-disabled test runs |
-| **Android Development** | Kotlin, Java, Android SDK, Jetpack Compose, XML Layouts, MVVM, MVC, Clean Architecture, ViewModel, LiveData, Coroutines, Flow, Room, WorkManager, Retrofit, OkHttp, Material Design, Google Play Store Publishing |
-| **AI-Assisted Development** | Windsurf AI, AI-powered Code Generation & Refactoring, AI Code Review & Validation, Prompt Engineering for Code Quality |
-| **Firebase & Services** | Firebase Auth, Firestore, FCM, Crashlytics, Google Play Services (Maps/Location), Google Play Console |
-| **Debugging & Profiling** | Android Profiler, LeakCanary, Logcat, Crashlytics, ANR analysis, memory leak triage |
-| **Backend & APIs** | RESTful APIs (JSON), Spring Boot, Flask, MongoDB, AWS (EC2, S3, Lambda, DynamoDB, CloudWatch), Secure Data Storage |
-| **DevOps & CI/CD** | Git, GitHub Actions, Jenkins, Docker, Postman, Linux, Bash, CI/CD Pipelines, Selenium Grid |
+| **Android Core** | Kotlin, Kotlin Multiplatform (KMP), Java, Android SDK, Jetpack Compose, XML Views, MVVM, MVI, Clean Architecture, Unidirectional Data Flow (UDF), ViewModel, LiveData, StateFlow, SharedFlow, Coroutines, Flow, Channels, Navigation Compose, Material Design 3, Accessibility (TalkBack / WCAG 2.1) |
+| **Android Libraries** | Hilt, Dagger 2, Room, DataStore (Preferences/Proto), WorkManager, Paging 3, CameraX, Media3/ExoPlayer, Retrofit, OkHttp, Moshi, Gson, Glide, Coil, Biometric API, Android KeyStore, Encrypted SharedPreferences, Deep Links / App Links |
+| **Firebase & Services** | Firebase Auth, Firestore, Storage, Crashlytics, Analytics, Performance, FCM, Google Play Services (Maps/Location/Geofencing), Google Play Console |
+| **Android Testing & Tooling** | JUnit, Espresso, MockK, Mockito, Robolectric, Turbine, Compose UI Testing, LeakCanary, Detekt, ktlint, Gradle (Kotlin DSL), App Bundles (AAB), ProGuard/R8, Baseline Profiles, Macrobenchmark, Android Vitals, Android Studio Profiler, Page Object Model |
+| **AI / ML** | Scikit-learn, Hugging Face Transformers, OpenCV, YOLOv8, Donut, LayoutLM, Image Processing, Custom LLMs, Gradio, TensorFlow |
+| **Backend / Cloud** | Java, Spring Boot, Flask, REST APIs (JSON), MongoDB, AWS (EC2, S3, Lambda, DynamoDB, IAM, CloudWatch) |
+| **DevOps & CI/CD** | Git, GitHub Actions, Jenkins, Docker, Kubernetes, Postman, Linux, Bash |
 | **Methodologies** | Agile/Scrum, Code Reviews, Secure Coding Practices, Mobile Application Security, TDD |
 | **Languages** | Kotlin, Java, Python, SQL, JavaScript, C++ |
 
