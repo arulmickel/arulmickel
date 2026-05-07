@@ -5,7 +5,7 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 
 **M.S. Computer Science (AI Concentration)** @ DePaul University, Chicago  
 **Android Developer** | **Test Automation & SDET** | **AI-Integrated Development** | **Meta Android Certified**  
-2+ years of hands-on experience building native Android applications in **Kotlin** and **Java**, with deep focus on **test automation frameworks, Espresso & Compose UI testing, and CI/CD reliability** -plus **AI-Integrated development workflows**.
+4 years of hands-on experience building native Android applications in **Kotlin** and **Java**, with deep focus on **test automation frameworks, Espresso & Compose UI testing, and CI/CD reliability** -plus **AI-Integrated development workflows**.
 
 **Portfolio:** [arulmickel.github.io/portfolio-](https://arulmickel.github.io/portfolio-/)
 
@@ -47,6 +47,12 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 - Revamped AWS SNS to FCM push notification flows and Android 13 - 15 permission handling, validated delivery, opt-in flows, and error paths end-to-end.
 - Strengthened release quality via staged rollouts and Crashlytics monitoring; triaged production issues with clear repro steps and partnered with engineers to drive root-cause fixes.
 - Improved CI signal quality by tracking failures
+
+- ### Android Developer - Knight Group (EV Startup - India) `Oct 2022 – Aug 2023`
+- Vehicle Control App: Developed a Tesla-like companion app that allows the control of the vehicle remotely (lock, unlock, horn, light, Summon), charging, and pre-conditioning, utilizing Kotlin Coroutines, StateFlow, and IbSocket connections to control the vehicle’s systems.
+- Phone Key and BLE Passive Entry: Developed passive entry via Bluetooth Low Energy that would allow unlocking and starting the car when the user gets close to the car, focusing on developing a low-latency solution and managing services and handshakes.
+- Live Camera and Energy Dashboard: Developed live camera streams for monitoring Sentry mode/Dashcam, utilizing Media3/ExoPlayer, as Ill as an energy monitoring dashboard (PoIrwall, solar, and grid consumption) through Jetpack Compose.
+- Security and Cross-functional Work: Developed end-to-end encryption via Android Keystore for safety-critical commands from the app to the vehicle; worked cross-functionally with embedded firmware, backend, and product design engineers to develop vehicle-to-app API contracts.
 
 ### Software Engineer -Tata Consultancy Services (India) `May 2022 – Sep 2022`
 - Refactored Java/Spring Boot REST APIs used by mobile clients; optimized database queries to improve response time by 25% and support higher concurrency.
