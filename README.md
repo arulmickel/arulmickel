@@ -17,6 +17,7 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/arul-michael-antony-f-661260187/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:arulmichaelantonyf@gmail.com)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle)](https://www.kaggle.com/arulmichaelantony)
+[![Meta-Certificate]([https://img.shields.io/badge/Kaggle-Profile-blue?logo=kaggle](https://pngimg.com/image/110792))]([https://www.kaggle.com/arulmichaelantony](https://www.credly.com/badges/43d31ac1-b650-462d-a740-7a5b8babca1c/public_url))
 
 ---
 
@@ -38,16 +39,16 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 
 ## Experience
 
-### Android Developer (Quality + Automation Focus) - Digital Factory (Chicago, IL) `Sep 2025 - Present`
-- Authored 25+ Espresso/Compose UI tests for critical user journeys and integrated runs into GitHub Actions to gate merges and reduce regressions.
-- Built and maintained Compose UI tests using Semantics test tags and stable selectors; partnered with developers to add test hooks and improve long-term maintainability.
-- Improved flaky test reliability by removing brittle selectors, using deterministic test data/setup, and applying synchronization patterns (idling resources/safe waits as needed).
-- Implemented reusable automation utilities (helpers/page objects/test data builders) to reduce duplication and enable scalable test coverage across features.
-- Built an offline-first geofencing sync system (Room + WorkManager) and validated behavior across connectivity changes, background/foreground transitions, and location permission states.
-- Improved reliability with resilient networking (retry + exponential backoff) that reduced network-related crashes by 15%; verified behavior via negative and edge-case test scenarios.
-- Revamped AWS SNS to FCM push notification flows and Android 13 - 15 permission handling, validated delivery, opt-in flows, and error paths end-to-end.
-- Strengthened release quality via staged rollouts and Crashlytics monitoring; triaged production issues with clear repro steps and partnered with engineers to drive root-cause fixes.
-- Improved CI signal quality by tracking failures
+### Android Developer - Digital Factory (Chicago, IL) `Sep 2025 - Present`
+- Dependency Injection & Modularization: Refactored feature modules using Hilt and Gradle Kotlin DSL, enabling parallel feature development across teams and reducing incremental build times by ~30%.
+- Reactive State Management: Implemented Unidirectional Data Flow (UDF) with StateFlow and SharedFlow across 12+ Compose screens, eliminating UI race conditions and producing predictable, testable screen states.
+- Performance & Stability Monitoring: Integrated Firebase Crashlytics and Android Vitals dashboards to track ANRs, cold-start, and slow-frame rates; reduced p95 cold-start by 22% via Baseline Profiles and lazy initialization of non-critical components.
+- Offline-First Caching: Designed an LRU in-memory cache layered over Room as the single source of truth, delivering sub-100ms reads for hot location data and seamless offline operation for field users.
+- Map & Location Features: Integrated Google Maps SDK with custom marker clustering, polygon overlays, and geofence visualizations for field-service workflows handling 1,000+ active sites with low frame-drop rates.
+- Test Framework: Built a Page Object Model (POM) test framework on top of Espresso and JUnit, achieving 70%+ coverage on critical flows and wiring it into GitHub Actions for every pull request.
+- Accessibility & Material 3: Migrated UI components to Material 3 design tokens and added TalkBack support, semantic content descriptions, and dynamic font scaling to meet WCAG 2.1 AA compliance.
+- Secure Storage: Implemented Android KeyStore-backed encrypted token storage and BiometricPrompt re-authentication for high-privilege actions, hardening the app against on-device credential theft.
+- Code Quality Gates: Introduced Detekt and ktlint static analysis with pre-commit hooks and CI checks, standardizing Kotlin style across the team and shortening PR review cycles.
 
 - ### Android Developer - Knight Group (EV Startup - India) `Oct 2022 – Aug 2023`
 - Vehicle Control App: Developed a Tesla-like companion app that allows the control of the vehicle remotely (lock, unlock, horn, light, Summon), charging, and pre-conditioning, utilizing Kotlin Coroutines, StateFlow, and IbSocket connections to control the vehicle’s systems.
@@ -55,16 +56,25 @@ Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 - Live Camera and Energy Dashboard: Developed live camera streams for monitoring Sentry mode/Dashcam, utilizing Media3/ExoPlayer, as Ill as an energy monitoring dashboard (PoIrwall, solar, and grid consumption) through Jetpack Compose.
 - Security and Cross-functional Work: Developed end-to-end encryption via Android Keystore for safety-critical commands from the app to the vehicle; worked cross-functionally with embedded firmware, backend, and product design engineers to develop vehicle-to-app API contracts.
 
-### Software Engineer -Tata Consultancy Services (India) `May 2022 – Sep 2022`
-- Refactored Java/Spring Boot REST APIs used by mobile clients; optimized database queries to improve response time by 25% and support higher concurrency.
-- Developed and maintained automated test suites integrated with Jenkins CI to reduce manual regression work and improve release confidence.
-- Validated backend-integrated flows end-to-end (API behavior, error handling, data correctness) and produced clear defect write-ups to accelerate fixes.
-- Implemented CloudWatch dashboards/alerts to accelerate incident detection and triage; partnered with teams to resolve reliability issues.
+### App Engineer - Tata Consultancy Services (India) `May 2022 – Sep 2022`
+- Android API Integration: Built REST clients on the Android side using Retrofit and OkHttp interceptors with Gson serialization and centralized error handling, consumed by client mobile applications.
+- UI Development: Developed Android screens in Kotlin and Java using XML layouts, ConstraintLayout, and RecyclerView adapters with DiffUtil, implementing pagination and pull-to-refresh on data-heavy list views.
+- Offline Caching: Implemented Room-backed local caching of API responses to enable offline reads and reduce redundant network calls by 35% on low-bandwidth field devices.
+- Crash Reporting & Telemetry: Integrated Firebase Crashlytics and Analytics into Android builds, surfacing top crash signatures and key funnel events to product stakeholders for prioritization.
+- Build Pipelines: Configured Gradle build variants (debug/staging/prod) and signed APK generation, enabling QA to receive nightly builds via Jenkins for faster regression turnaround.
 
-### Junior Android Developer -HumCen (India) `Jan 2021 – Dec 2021`
-- Built native Android UI flows using **Kotlin, Java, XML** with **MVVM architecture**
-- Resolved critical UI bugs and memory leaks using **Android Profiler**
-- Integrated secure **RESTful APIs** with error handling and retry logic
+### Junior Android Developer - HumCen (India) `Jan 2021 – April 2022`
+- App Bootstrapping & Architecture: Bootstrapped the Android app from scratch using MVVM with ViewModel, LiveData, and the Repository pattern, establishing a modular package structure that scaled to 8+ feature modules over the project lifecycle.
+- UI Development: Built 20+ customer-facing screens in Kotlin with XML layouts, ConstraintLayout, RecyclerView with DiffUtil, and Material Components for patent search, IP-filing forms, and consultant chat flows.
+- Networking Layer: Designed the REST networking layer with Retrofit, OkHttp logging interceptors, and Gson, implementing OAuth token refresh and standardized error handling across 25+ API endpoints.
+- Local Persistence: Implemented Room for offline storage of patent drafts and user data, including type converters for complex objects and migrations across 4 schema versions without data loss.
+- Authentication & Push: Integrated Firebase Authentication (email and phone OTP) and Firebase Cloud Messaging (FCM) for real-time push notifications on patent application status changes.
+- Async Refactor: Migrated legacy callback-based async code to Kotlin Coroutines and Flow, simplifying error propagation and reducing networking-layer boilerplate by ~40%.
+- Testing: Wrote unit tests with JUnit and Mockito for ViewModels and repositories, plus instrumentation tests with Espresso for critical onboarding and submission flows.
+- Performance Optimization: Profiled UI rendering with Android Studio Profiler and Layout Inspector, lowering dropped-frame rates on the patent listing screen from 14% to under 2%.
+- Image Loading: Integrated Glide for caching and transforming patent diagrams and consultant avatars, with disk-cache strategies tuned for low-RAM devices common in the target market.
+- Release Management: Owned Play Store release tasks including ProGuard/R8 shrinking and obfuscation, signed App Bundle (AAB) generation, staged rollouts, and crash-rate monitoring via Firebase Crashlytics.
+- Collaboration & Mentorship: Partnered with backend engineers to define API contracts in Swagger, conducted code reviews on pull requests, and onboarded an incoming intern on Android fundamentals before transitioning out of the role.
 
 ---
 
@@ -118,7 +128,7 @@ M.S. Computer Science (AI Concentration) -*Nov 2025*
 
 ## Certifications
 - **Meta Android Developer Professional Certificate**
-
+[Verify on Credly](https://www.credly.com/badges/43d31ac1-b650-462d-a740-7a5b8babca1c/public_url)
 ---
 
 ## Extracurricular
