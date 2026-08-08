@@ -4,7 +4,7 @@
 Hii, I'm Arul Michael Antony Felix Raja(I get it, my name is long)
 
 **M.S. Computer Science (AI Concentration)** @ DePaul University, Chicago  
-**Android Developer** | **Test Automation & SDET** | **AI-Integrated Development** | **Meta Android Certified**  
+**Android Developer** | **Test Automation & SDET** | **Meta Android Certified**  
 
 4 years of hands-on experience building native Android applications in **Kotlin** and **Java**, with deep focus on **test automation frameworks, Espresso & Compose UI testing, and CI/CD reliability** - plus **AI-Integrated development workflows**.
 
